@@ -26,4 +26,7 @@ jobs:
                   pip install -r requirements-dev.txt
 
             - name: Run Pylint
-              run: pylint app.py model.py
+              run: pylint app.py model.py tests
+
+            - name: Run pytest
+              run: pytest -v
