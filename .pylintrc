@@ -1,0 +1,6 @@
+[MAIN]
+init-hook='import sys; sys.path.append(".")'
+ignore=.venv,__pycache__
+
+[FORMAT]
+max-line-length=100
